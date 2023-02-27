@@ -17,7 +17,9 @@
 .space-between{
     justify-content: space-between;
 }
-
+.space-around{
+    justify-content: space-around;
+}
 .azure-bg{
     background-color: rgb(126, 250, 250);
 }
@@ -68,10 +70,12 @@
 
 .t-center{
     text-align: center;
+    padding-bottom: 15px;
 }
 
 .white{
     color: white;
+    text-decoration: none;
 }
 
 /* PARTE MAIN */
@@ -92,6 +96,7 @@
     border: 1px solid black;
     margin-top: 20px;
 }
+
 
 .contained{
     padding: 10px;
@@ -115,12 +120,6 @@
     padding: 10px 0;
 }
 
-.blue-b>a{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    text-decoration: none;
-    font-size: 20px;
-}
 
 .acquista{
     margin: 20px 0;
@@ -131,10 +130,5 @@ div>i{
 }
 
 .box{
-    border: 1px solid black;
     margin-top:30px;
-}
-
-.box-2>.blue-b{
-    
 }
