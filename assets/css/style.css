@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+      /* UTILITY */
+.flex{
+    display: flex;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.azure-bg{
+    background-color: rgb(126, 250, 250);
+}
+
+.relative{
+    position: relative;
+    top: 60px;
+}
+
+.m-left{
+    margin-left: 50px;
+}
+
+.margin-t-b{
+    margin:10px 0;
+}
+
+.hr-special{
+    width: 15%;
+}
+
+    /* PARTE HEADER */
+
+#container-1{
+    width: 60%;
+    margin:auto;
+}
+
+#m-title{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.text{
+    padding: 20px;
+}
+
+.text p{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+#anchor-l{
+    margin-top: 80px;
+    font-size: 40px;
+}
+
+.t-center{
+    text-align: center;
+}
+
+.white{
+    color: white;
+}
+
+/* PARTE MAIN */
+
+#container-2{
+    width: 53%;
+    margin: auto;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.radio-b{
+    margin-top: 30px;
+}
+
+.card{
+    width:calc( 100% / 3 - 2%);
+    border: 1px solid black;
+    margin-top: 20px;
+}
+
+.contained{
+    padding: 10px;
+}
+
+.price{
+    margin-top: 10px;
+}
+
+.icon{
+    margin-top: 20px;
+    margin-bottom: 20px;    
+}
+
+.blue-b{
+    background-color: rgb(49, 49, 241);
+    width: 85%;
+    text-align: center;
+    margin: auto;
+    display: block;
+    padding: 10px 0;
+}
+
+.blue-b>a{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.acquista{
+    margin: 20px 0;
+}
+
+div>i{
+    padding-top: 20px;
+}
+
+.box{
+    border: 1px solid black;
+    margin-top:30px;
+}
+
+.box-2>.blue-b{
+    
+}
