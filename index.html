@@ -10,9 +10,9 @@
 </head>
 <body>
     <header>
-        <nav class="flex space-between sticky">
+        <nav class="flex space-between fixed">
             <div>
-                <img src="assets/img/logo-small.png" alt="Logo Dropbox">
+                <img id="logo" src="assets/img/logo-small.png" alt="Logo Dropbox">
                 <a href="#">Perchè Dropbox</a>
                 <a href="#">Funzioni</a>
                 <a href="#">Piani e Prezzi</a>
@@ -21,7 +21,7 @@
                 <a href="#">Supporto</a>
                 <a href="#">Contatta Ufficio Vendite</a>
                 <a href="#">Accedi</a>
-                <a href="#">Inizia</a>
+                <a id="whiteBtn-b" href="#">Inizia</a>
             </div>
         </nav>
         <div class="azure-bg">
@@ -40,7 +40,7 @@
                             <a href="#"><i class="fa-solid fa-arrow-down"></i></a>
                         </div>
                     </div>
-                    <div class="relative">
+                    <div id="img-h" class="relative">
                         <img src="assets/img/jumbo.png" height="400px" alt="Proposta cliente">
                     </div>
 
@@ -62,8 +62,9 @@
                     <input type="radio"> Fatturazione Annuale
                 </div>
             </div>
+                                                             <!--CARD -->
             <div class="flex space-between">                
-                <div class="card">                               <!--CARD --> 
+                <div class="card">                                
                     <div class="t-center">                                                         <!--SEZIONE MODALITà UTENTE -->
                         <i class="fa-solid fa-user"></i> Singolo
                     </div>
@@ -194,7 +195,8 @@
                     </div>
                 </div>                                                
             </div>
-            <div class="box">                            <!--SEZIONE MAIN BASSA --> 
+                                                               <!--SEZIONE MAIN BASSA --> 
+            <div class="box">                            
                 <div class="t-center">            
                     <i class="fa-solid fa-building"></i> Team
                 </div>
@@ -207,7 +209,7 @@
                         </p>
                     </div>
                     <div class="box-2">
-                        <div class="blue-b">
+                        <div class="blue-b blue-b-auto">
                             <a class="white" href="#">Contatta l'ufficio vendite</a>
                         </div>
 
@@ -216,17 +218,188 @@
 
                 </div>
             </div>
-            <div class="box flex space-around">                
-                    <img src="assets/img/partner.png" height="600px" alt="partner">                
+                                                         <!-- SEZIONE IMG E TESTO -->
+            <div class="margin-t-b flex space-between">
                 <div>
+                    <img src="assets/img/partner.png" width="800px"  alt="partner">                
+                </div>                
+                <div class="contained">
                     <h3>Entra in contatto con un partner Dropbox</h3>
+                    <p>Trova un Partner Dropbox e HelloSign di fiducia.Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obiettivi aziendali,tra cui implementazione,integrazione,gestione e supporto continui.                        
+                    </p>
+                    <a href="#" class="grey white-b">Trova un Partner</a>
+                </div>
+            </div>
+                                                            <!-- SEZIONE OPERAZIONI DROPBOX -->
+            <div class="space">
+                <div class="title-c">
+                    <h2>Esegui più operazioni con Dropbox Buisiness</h2>
+                </div>
+                <div class="flex space-between wrap">
+                    <div class="card-2">
+                        <img src="assets/img/business-feature-switching-tools.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed placeat dolores similique earum! Asperiores, illo. Facere nulla illo magnam beatae esse iusto odit quos laudantium. Aut delectus expedita iure?</p>
+                    </div>
+                    <div class="card-2">
+                        <img src="assets/img/business-feature-send-files-it.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed placeat dolores similique earum! Asperiores, illo. Facere nulla illo magnam beatae esse iusto odit quos laudantium. Aut delectus expedita iure?</p>
+                    </div>
+                    <div class="card-2">
+                        <img src="assets/img/business-feature-security.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed placeat dolores similique earum! Asperiores, illo. Facere nulla illo magnam beatae esse iusto odit quos laudantium. Aut delectus expedita iure?</p>
+                    </div>
+                    <div class="card-2">
+                        <img src="assets/img/business-feature-multi-device.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed placeat dolores similique earum! Asperiores, illo. Facere nulla illo magnam beatae esse iusto odit quos laudantium. Aut delectus expedita iure?</p>
+                    </div>
+                    <div class="card-2">
+                        <img src="assets/img/business-feature-integrations-it.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed placeat dolores similique earum! Asperiores, illo. Facere nulla illo magnam beatae esse iusto odit quos laudantium. Aut delectus expedita iure?</p>
+                    </div>
+                    <div class="card-2">
+                        <img src="assets/img/business-feature-coordinate-it.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda sed placeat dolores similique earum! Asperiores, illo. Facere nulla illo magnam beatae esse iusto odit quos laudantium. Aut delectus expedita iure?</p>
+                    </div>
+                    
+    
                 </div>
             </div>
 
+            <h2>Più di 500.000 team utilizzano Dropbox Buisiness</h2>
+            <div class="space">
+                <a href="#">Scopri di più sui nostri clienti</a>
+            </div>
 
+        </div>
+        
+        <div id="img-section" class="flex">
+            <div class="flex wrap">
+                <div class="sub-square flex j-center align-items light-green">
+                    <img src="assets/img/designit.svg"  alt="">
+                </div>
+                <div class="sub-square flex j-center align-items brown">
+                    <img src="assets/img/arizona_state_university.svg" alt="">
+                </div>
+                <div class="sub-square flex j-center align-items sky-blue">
+                    <img src="assets/img/university_of_florida.svg" alt="">
+                </div>
+                <div class="sub-square flex j-center align-items orange">
+                    <img src="assets/img/topps.svg" alt="">
+                </div>
+            </div>
+            <div class="border contained">
+                <img class="space-text" src="assets/img/designit.svg" alt="">
+                <hr class="hr-special">
+                <p class="space-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt omnis nihil, labore quae laborum soluta obcaecati illo aperiam maiores doloremque, velit accusantium perspiciatis asperiores repellat reiciendis. Beatae officia sequi qui. Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque animi, facilis assumenda officia, consequuntur iure ipsum rerum aliquam possimus eum suscipit, corrupti obcaecati soluta dolorum illo rem veniam tempore consequatur.</p>
+                <p class="space-text">Morten Thompsen, Global IT lead</p>
+            </div>
+            <div class=" flex wrap">
+                <div class="sub-square flex j-center align-items red">
+                    <img src="assets/img/world_bicycle_relief.svg" alt="">
+                </div>
+                <div class="sub-square flex j-center align-items azure">
+                    <img src="assets/img/hearst_corp.svg" alt="">
+                </div>
+                <div class="sub-square flex j-center align-items blue">
+                    <img src="assets/img/lonely_planet.svg" alt="">
+                </div>
+                <div class="sub-square flex j-center align-items yellow">
+                    <img src="assets/img/clear_channel.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="flex bg-azure">
+            <div>
+                <h2 class="coral-title">Porta Dropbox Business nella tua azienda</h2>
+            </div>
+            <div>
+                <a class="grey white-b" href="#">Inizia la tua prova gratuita</a>
+            </div>
+
+        </div>
+                                              <!-- SEZIONE DOMANDE FREQUENTI -->
+        <div id="container-3">
+            <div>
+                <h2>Domande Frequenti</h2>
+            </div>
+            <hr class="space">
+            <div>
+                <div class="flex space-between question">
+                    <span>Quale è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span> 
+                    <a href="#"><i class="fa-solid fa-chevron-down"></i></a>   
+                </div>
+                <hr class="space">
+                <div class="flex space-between question">
+                    <span>Quale è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span> 
+                    <a href="#"><i class="fa-solid fa-chevron-down"></i></a>  
+                </div>
+                <hr class="space">
+                <div class="flex space-between question">       
+                    <span>Quale è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</span> 
+                    <a href="#"><i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+                <hr class="space">       
+            </div>
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="container-4">
+            <div class="flex space-between">
+                <div class="list">
+                    <h3 class="list-title">Dropbox</h3>
+                    <ul>
+                        <a href=""><li>Applicazione desktop</li></a>
+                        <a href=""><li>Perchè Dropbox</li></a>
+                        <a href=""><li>Piani</li></a>
+                        <a href=""><li>Sicurezza</li></a>
+                        <a href=""><li>Funzioni</li></a>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h3 class="list-title">Prodotti</h3>
+                    <ul>
+                        <a href=""><li>Applicazione desktop</li></a>
+                        <a href=""><li>Perchè Dropbox</li></a>
+                        <a href=""><li>Piani</li></a>
+                        <a href=""><li>Sicurezza</li></a>
+                        <a href=""><li>Funzioni</li></a>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h3 class="list-title">Azienda</h3>
+                    <ul>
+                        <a href=""><li>Applicazione desktop</li></a>
+                        <a href=""><li>Perchè Dropbox</li></a>
+                        <a href=""><li>Piani</li></a>
+                        <a href=""><li>Sicurezza</li></a>
+                        <a href=""><li>Funzioni</li></a>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h3 class="list-title">Supporto</h3>
+                    <ul>
+                        <a href=""><li>Applicazione desktop</li></a>
+                        <a href=""><li>Perchè Dropbox</li></a>
+                        <a href=""><li>Piani</li></a>
+                        <a href=""><li>Sicurezza</li></a>
+                        <a href=""><li>Funzioni</li></a>
+                    </ul>
+                </div>
+                <div class="list">
+                    <h3 class="list-title">Community</h3>
+                    <ul>
+                        <a href=""><li>Applicazione desktop</li></a>
+                        <a href=""><li>Perchè Dropbox</li></a>
+                        <a href=""><li>Piani</li></a>
+                        <a href=""><li>Sicurezza</li></a>
+                        <a href=""><li>Funzioni</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr id="footer-hr">
+        </div>
+        
+    </footer>
 </body>
 </html>
